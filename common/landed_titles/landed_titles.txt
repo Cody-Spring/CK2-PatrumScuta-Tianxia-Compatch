@@ -711,7 +711,9 @@ d_shiite = {
 			trigger = {
 				has_global_flag = destroyed_caliphates
 			}
+
 			religion = shiite
+
 			OR = {
 				piety = 500
 				custom_tooltip = {
@@ -737,6 +739,7 @@ d_shiite = {
 				}
 				custom_tooltip = {
 					text = shiite_bloodline_TT
+
 					any_owned_bloodline = {
 						has_bloodline_flag = bloodline_shiite_leader
 						bloodline_is_active_for = PREV
@@ -817,14 +820,7 @@ d_qarmatian = {
 
 	caliphate = yes
 	
-	coat_of_arms=
-	{
-		data=
-		{
-			0 0 0 9 1 7 7
-		}
-		religion = qarmatian
-	}
+	#coat_of_arms=	{data={	0 0 0 9 1 7 7}religion = qarmatian}
 }
 
 e_golden_horde = {
@@ -4182,18 +4178,18 @@ e_germany = {
 
 			old_saxon = Heilanga
 
-			pagan_coa = {
-				religion = "norse_pagan"
-				template = 0
-				layer = {
-					texture = 11
-					texture_internal = 0
-					emblem = 0
-					color = 13
-					color = 3
-					color = 13
-				}
-			}
+#			pagan_coa = {
+#				religion = "norse_pagan"
+#				template = 0
+#				layer = {
+#					texture = 11
+#					texture_internal = 0
+#					emblem = 0
+#					color = 13
+#					color = 3
+#					color = 13
+#				}
+#			}
 					
 			c_bremen = {
 				color={ 216 216 216 }
@@ -4222,18 +4218,18 @@ e_germany = {
 
 				old_saxon = Wigmodia
 
-				pagan_coa = {
-					religion = "norse_pagan"
-					template = 0
-					layer = {
-						texture = 11
-						texture_internal = 0
-						emblem = 0
-						color = 13
-						color = 3
-						color = 13
-					}
-				}
+#				pagan_coa = {
+#					religion = "norse_pagan"
+#					template = 0
+#					layer = {
+#						texture = 11
+#						texture_internal = 0
+#						emblem = 0
+#						color = 13
+#						color = 3
+#						color = 13
+#					}
+#				}
 				
 				b_bremen = {
 				}
@@ -11890,7 +11886,7 @@ e_italy = {
 			}
 		}	
 		d_corsica = {
-			color={ 210 233 248 } # Last was 278, which can't be correct...
+			color={ 210 233 248 }
 			color2={ 255 255 255 }
 			
 			capital = 324 # Corsica
@@ -12054,18 +12050,7 @@ e_scandinavia = {
 			
 			norse = Sviþjod
 			
-			pagan_coa = {
-				template = 0
-				layer = {
-					texture = 2
-					texture_internal = 10
-					emblem = 0
-					color = 0
-					color = 0
-					color = 0
-				}
-				religion = "norse_pagan"
-			}
+
 			
 			c_uppland = {
 				color={ 30 30 155 }
@@ -12261,18 +12246,18 @@ e_scandinavia = {
 				color2={ 255 255 255 }
 				
 				
-				pagan_coa = {
-					template = 0
-					layer = {
-						texture = 3
-						texture_internal = 1
-						emblem = 0
-						color = 0
-						color = 0
-						color = 0
-					}
-					religion = "norse_pagan"
-				}
+#				pagan_coa = {
+#					template = 0
+#	 				layer = {
+#						texture = 3
+#						texture_internal = 1
+#						emblem = 0
+#						color = 0
+#						color = 0
+#						color = 0
+#					}
+#					religion = "norse_pagan"
+#				}
 								
 				b_kisa = {
 				}
@@ -12299,19 +12284,6 @@ e_scandinavia = {
 			norwegian = "Vestergøtland"
 			danish = "Vestergøtland"
 			norse = "Vestergautland"
-			
-			pagan_coa = {
-				template = 0
-				layer = {
-					texture = 2
-					texture_internal = 11
-					emblem = 0
-					color = 0
-					color = 0
-					color = 0
-				}
-				religion = "norse_pagan"
-			}
 			
 			c_vastergotland = {
 				color={ 60 55 255 }
@@ -12400,18 +12372,18 @@ e_scandinavia = {
 				color2={ 255 255 255 }
 				
 				
-				pagan_coa = {
-					template = 0
-					layer = {
-						texture = 3
-						texture_internal = 2
-						emblem = 0
-						color = 0
-						color = 0
-						color = 0
-					}
-					religion = "norse_pagan"
-				}
+#				pagan_coa = {
+#					template = 0
+#					layer = {
+#						texture = 3
+#						texture_internal = 2
+#						emblem = 0
+#						color = 0
+#						color = 0
+#						color = 0
+#					}
+#					religion = "norse_pagan"
+#				}
 				
 				b_skara = {
 				}
@@ -12673,18 +12645,18 @@ e_scandinavia = {
 				color={ 85 44 225 }
 				color2={ 255 255 255 }
 							
-				pagan_coa = {
-					template = 0
-					layer = {
-						texture = 3
-						texture_internal = 3
-						emblem = 0
-						color = 0
-						color = 0
-						color = 0
-					}
-					religion = "norse_pagan"
-				}
+#				pagan_coa = {
+#					template = 0
+#					layer = {
+#						texture = 3
+#						texture_internal = 3
+#						emblem = 0
+#						color = 0
+#						color = 0
+#						color = 0
+#					}
+#					religion = "norse_pagan"
+#				}
 				
 				b_kronsborg = {
 				}
@@ -12743,18 +12715,18 @@ e_scandinavia = {
 			
 			swedish = "Tiohärad"
 			
-			pagan_coa = {
-				template = 0
-				layer = {
-					texture = 3
-					texture_internal = 0
-					emblem = 0
-					color = 0
-					color = 0
-					color = 0
-				}
-				religion = "norse_pagan"
-			}
+#			pagan_coa = {
+#				template = 0
+#				layer = {
+#					texture = 3
+#					texture_internal = 0
+#					emblem = 0
+#					color = 0
+#					color = 0
+#					color = 0
+#				}
+#				religion = "norse_pagan"
+#			}
 			
 			c_smaland = { # Now called Värend
 				color={ 95 30 215 }
@@ -12969,18 +12941,7 @@ e_scandinavia = {
 			english = Zealand
 			norse = Sjælland
 			
-			pagan_coa = {
-				template = 0
-				layer = {
-					texture = 2
-					texture_internal = 7
-					emblem = 0
-					color = 0
-					color = 0
-					color = 0
-				}
-				religion = "norse_pagan"
-			}
+
 			
 			c_sjaelland = {
 				color={ 216 50 50 }
@@ -13059,18 +13020,7 @@ e_scandinavia = {
 			
 			capital = 1684 # Åbosyssel
 						
-			pagan_coa = {
-				template = 0
-				layer = {
-					texture = 2
-					texture_internal = 0
-					emblem = 0
-					color = 0
-					color = 0
-					color = 0
-				}
-				religion = "norse_pagan"
-			}
+
 
 			c_jylland = {
 				color={ 225 84 84 }
@@ -13357,18 +13307,7 @@ e_scandinavia = {
 			welsh = "Ynysoedd Gogledd"
 			irish = "Innse Tuath"
 			
-			pagan_coa = {
-				template = 0
-				layer = {
-					texture = 2
-					texture_internal = 5
-					emblem = 0
-					color = 0
-					color = 0
-					color = 0
-				}
-				religion = "norse_pagan"
-			}
+
 			
 			c_faereyar = {
 				color={ 116 145 239 }
@@ -13830,18 +13769,7 @@ e_scandinavia = {
 			
 			capital = 272 # Akershus
 			
-			pagan_coa = {
-				template = 0
-				layer = {
-					texture = 2
-					texture_internal = 6
-					emblem = 0
-					color = 0
-					color = 0
-					color = 0
-				}
-				religion = "norse_pagan"
-			}
+
 
 			c_vestfold = {
 				color={ 89 100 195 }
@@ -13920,18 +13848,7 @@ e_scandinavia = {
 			
 			capital = 275 # Trondelag
 			
-			pagan_coa = {
-				template = 0
-				layer = {
-					texture = 2
-					texture_internal = 9
-					emblem = 0
-					color = 0
-					color = 0
-					color = 0
-				}
-				religion = "norse_pagan"
-			}
+
 			
 			c_trondelag = {
 				color={ 20 155 255 }
@@ -17058,18 +16975,8 @@ e_wendish_empire = {
 			
 			capital = 1596 # Riga # Changed due to the vanilla choice not being in the right duchy
 			
-			pagan_coa = {
-				template = 0
-				layer = {
-					texture = 2
-					texture_internal = 2
-					emblem = 0
-					color = 0
-					color = 0
-					color = 0
-				}
-				religion = "norse_pagan"
-			}
+	
+			
 			c_riga = {
 				color={ 100 50 50 }
 				color2={ 255 255 255 }
@@ -17228,93 +17135,69 @@ e_wendish_empire = {
 		}
 
         d_bohemia = {
-			color={ 195 110 11 }
-			color2={ 255 255 255 }
-	   
-			capital = 437 # Praha
-	   
-			c_domazlice = {
-				color={ 197 112 13 }
-				color2={ 255 255 255 }
-				
-				bohemian = "Jižní Cechy"
-				pommeranian = "Jizni Cechy"
-				polish = "Jizni Cechy"
-				croatian = "Jizni Cechy"
-				serbian = "Jizni Cechy"
-				bulgarian = "Jizni Cechy"
-				bosnian = "Jizni Cechy"
-				russian = "Jizni Cechy"
-				ilmenian = "Jizni Cechy"
-				severian = "Jizni Cechy"
-				volhynian = "Jizni Cechy"
-				german = "Sudböhmen"
-				norse = "Sudböhmen"
-				swedish = "Sudböhmen"
-				danish = "Sudböhmen"
-				norwegian = "Sudböhmen"
-				old_frankish = "Sudböhmen"
-				old_saxon = "Sudböhmen"
-				saxon = "Sudböhmen"
-				suebi = "Sudböhmen"
-				slovieni = "Jižní Cechy"
-			
-				b_prachen = {
-				}
-				b_doudleby = {
-				}
-				b_chynov = {
-				}
-				b_hohenfurth = {
-					bohemian = "Vyšší Brod"
-					slovieni = "Vyšší Brod"
-				}
-				b_rosenberg = {
-					bohemian = "Rožmberk"
-					slovieni = "Rožmberk"
-				}
-				b_budejovice = {
-					german = "Budweis"
-				}
-				b_pisek = {
-				}
-				b_krumlov = {
-					german = "Krumau"
-				}
-				b_goldenkron = {
-					bohemian = "Zlatá Koruna"
-					slovieni = "Zlatá Koruna"
-				}
-				b_resenberg = {}
-			}
-			c_praha = {
+           		color={ 195 110 11 }
+           		color2={ 255 255 255 }
+           
+           		capital = 437 # Praha
+           
+           		c_domazlice = {
+               		color={ 197 112 13 }
+               		color2={ 255 255 255 }
+					
+               		bohemian = "Jižní Cechy"
+               		pommeranian = "Jizni Cechy"
+               		polish = "Jizni Cechy"
+               		croatian = "Jizni Cechy"
+               		serbian = "Jizni Cechy"
+               		bulgarian = "Jizni Cechy"
+					bosnian = "Jizni Cechy"
+                	russian = "Jizni Cechy"
+                	ilmenian = "Jizni Cechy"
+                	severian = "Jizni Cechy"
+                	volhynian = "Jizni Cechy"
+                	german = "Sudböhmen"
+                	norse = "Sudböhmen"
+                	swedish = "Sudböhmen"
+                	danish = "Sudböhmen"
+                	norwegian = "Sudböhmen"
+                	old_frankish = "Sudböhmen"
+                	old_saxon = "Sudböhmen"
+                	saxon = "Sudböhmen"
+                	suebi = "Sudböhmen"
+					slovieni = "Jižní Cechy"
+                
+                	b_prachen = {
+                	}
+                	b_doudleby = {
+                	}
+                	b_chynov = {
+                	}
+                	b_hohenfurth = {
+						bohemian = "Vyšší Brod"
+						slovieni = "Vyšší Brod"
+                	}
+                	b_rosenberg = {
+						bohemian = "Rožmberk"
+						slovieni = "Rožmberk"
+                	}
+                	b_budejovice = {
+						german = "Budweis"
+                	}
+                	b_pisek = {
+                	}
+                	b_krumlov = {
+						german = "Krumau"
+                	}
+                	b_goldenkron = {
+						bohemian = "Zlatá Koruna"
+						slovieni = "Zlatá Koruna"
+                	}
+                	b_resenberg = {}
+            		}
+            	c_praha = {
                 color={ 199 114 15 }
                 color2={ 255 255 255 }
 				
-				norse = Prag
-				swedish = Prag
-				danish = Prag
-				norwegian = Prag
-				german = Prag
-				lombard = Prag
-				old_frankish = Prag
-				suebi = Prag
-				saxon = Prag
-				old_saxon = Prag
-				pommeranian = Praha
-				bohemian = Praha
-				slovieni = Praha
-				polish = Praha
-				croatian = Praha
-				serbian = Praha
-				bulgarian = Praha
-				bosnian = "Praha"
-				russian = Praga
-				ilmenian = Praha
-				severian = Praha
-				volhynian = Praha
-                
-                b_praha = {
 					norse = Prag
 					swedish = Prag
 					danish = Prag
@@ -17337,132 +17220,159 @@ e_wendish_empire = {
 					ilmenian = Praha
 					severian = Praha
 					volhynian = Praha
-                }
-                b_brevnov = {
-                }
-                b_kuttenberg = {
-					german = Kuttenberg
-					norse = Kuttenberg
-					swedish = Kuttenberg
-					danish = Kuttenberg
-					saxon = Kuttenberg
-					old_saxon = Kuttenberg
-					bohemian = "Kutna Hora"
+                
+					b_praha = {
+						norse = Prag
+						swedish = Prag
+						danish = Prag
+						norwegian = Prag
+						german = Prag
+						lombard = Prag
+						old_frankish = Prag
+						suebi = Prag
+						saxon = Prag
+						old_saxon = Prag
+						pommeranian = Praha
+						bohemian = Praha
+						slovieni = Praha
+						polish = Praha
+						croatian = Praha
+						serbian = Praha
+						bulgarian = Praha
+						bosnian = "Praha"
+						russian = Praha
+						ilmenian = Praha
+						severian = Praha
+						volhynian = Praha
+					}
+                	b_brevnov = {
+                	}
+                	b_kuttenberg = {
+						german = Kuttenberg
+						norse = Kuttenberg
+						swedish = Kuttenberg
+						danish = Kuttenberg
+						saxon = Kuttenberg
+						old_saxon = Kuttenberg
+						bohemian = "Kutna Hora"
 						slovieni = "Kutná Hora"
-                }
-                b_vysehrad = {
-                }
-                b_kourim = {
-                }
-                b_kolin = {
-                }
-                b_stare_mesto = {
-                }
-                b_zbraslav = {
-                }
-                b_sazava = {
-                }
-           	}
-            c_litomerice = {
-              	color={ 203 118 19 }
-              	color2={ 255 255 255 }
+                	}
+                	b_vysehrad = {
+                	}
+                	b_kourim = {
+                	}
+                	b_kolin = {
+                	}
+                	b_stare_mesto = {
+                	}
+                	b_zbraslav = {
+                	}
+                	b_sazava = {
+						german = "Sassau"
+                	}
+				}
+            	c_litomerice = {
+              		color={ 203 118 19 }
+              		color2={ 255 255 255 }
 
-              	german = "Leitmeritz"
-				swedish = "Leitmeritz"
-				norse = "Leitmeritz"
-				danish = "Leitmeritz"
-				norwegian = "Leitmeritz"
-              
-              	b_litomerice = {
-			  		german = "Leitmeritz"
+              		german = "Leitmeritz"
 					swedish = "Leitmeritz"
 					norse = "Leitmeritz"
 					danish = "Leitmeritz"
 					norwegian = "Leitmeritz"
-             	}
-              	b_melnik_bohemia = {}
-              	b_mnichovo_hradiste = {}
-              	b_zitava = {}
-              	b_duba_litomerice = {}
-              	b_decin = {}
-              	b_ceskalipa = {}
-              	b_boleslav = {}
-              	b_nymburk = {}
-            }
-			c_hradec = {
-                color={ 200 104 38 }
-            	color2={ 255 255 255 }
-                
-                b_hradeckralove = {
+              
+              		b_litomerice = {
+						german = "Leitmeritz"
+						swedish = "Leitmeritz"
+						norse = "Leitmeritz"
+						danish = "Leitmeritz"
+						norwegian = "Leitmeritz"
+             		}
+					b_melnik_bohemia = {}
+					b_mnichovo_hradiste = {}
+					b_zitava = {}
+					b_duba_litomerice = {}
+					b_decin = {}
+					b_ceskalipa = {}
+					b_boleslav = {}
+					b_nymburk = {}
+				}
+				c_hradec = {
+                	color={ 200 104 38 }
+            		color2={ 255 255 255 }
+				
 					german = "Grätz"
-                }
-				b_kladsko = {
-					german = "Glatz"
-					polish = "Klodzko"
-				}
-				b_zleby = {
-                }
-				b_chrudim = {
-				}
-				b_caslav = {
-                }
-				b_jaromer = {
-                }
-                b_litomysl = {
-                }
-            }
-            c_plzen = {
-                color={ 205 120 21 }
-                color2={ 255 255 255 }
                 
-                german = Pilsen
-				swedish = Pilsen
-				norse = Pilsen
-				danish = Pilsen
-				norwegian = Pilsen
+                	b_hradeckralove = {
+						german = "Grätz"
+                	}
+					b_kladsko = {
+						german = "Glatz"
+						polish = "Klodzko"
+					}
+					b_zleby = {
+               		}
+					b_chrudim = {
+					}
+					b_caslav = {
+                	}
+					b_jaromer = {
+                	}
+                	b_litomysl = {
+                	}
+				}
+				c_plzen = {
+                	color={ 205 120 21 }
+                	color2={ 255 255 255 }
                 
-                b_plzen = {
                 	german = Pilsen
 					swedish = Pilsen
 					norse = Pilsen
 					danish = Pilsen
 					norwegian = Pilsen
-                }
-                b_plasy = {
-                }
-                b_stribo = {
-                }
-                b_klatovy = {
-                }
-                b_kladruby = {
-                }
-                b_primda = {
-                }
-                b_domazlice = {
-                }
-            }
-  			c_zatec = {
-                color={ 155 105 30 }
-                color2={ 255 255 255 }
                 
-				german = "Saaz"
-			
-				b_zatec = {
+                	b_plzen = {
+                		german = Pilsen
+						swedish = Pilsen
+						norse = Pilsen
+						danish = Pilsen
+						norwegian = Pilsen
+                	}
+                	b_plasy = {
+                	}
+               		b_stribo = {
+                	}
+                	b_klatovy = {
+                	}
+                	b_kladruby = {
+                	}
+                	b_primda = {
+                	}
+                	b_domazlice = {
+                	}
+            	}
+				c_zatec = {
+                	color={ 155 105 30 }
+                	color2={ 255 255 255 }
+				
 					german = "Saaz"
-				}
-				b_osek = {
-				}
-				b_louny = {
-                }
-				b_bilina = {
-				}
-				b_kadan = {
-                }
-				b_teplice = {
-                }
-                b_chomutov = {
-                }
-            }
+                
+                	b_zatec = {
+						german = "Saaz"
+                	}
+					b_osek = {
+					}
+					b_louny = {
+                	}
+					b_bilina = {
+					}
+					b_kadan = {
+                	}
+					b_teplice = {
+                	}
+                	b_chomutov = {
+                	}
+            	}
         }
         d_moravia = {
             color={ 157 101 35 }
@@ -17494,7 +17404,8 @@ e_wendish_empire = {
 				}
 				b_telc = {
 				}
-				b_louka = {}
+				b_louka = {
+				}
 				b_eibenshitz = {
 					bohemian = "Ivancice"
 					slovieni = "Ivancice"
@@ -17502,7 +17413,7 @@ e_wendish_empire = {
 			}
             c_olomouc = {
                 color={ 163 107 41 }
-                color2={ 255 255 255 }
+               	color2={ 255 255 255 }
                 
 				german = "Olmütz"
 				polish = Olomuniec
@@ -17527,7 +17438,7 @@ e_wendish_empire = {
                 }
             }
             c_brno = {
-                color={ 166 110 44 }
+               	color={ 166 110 44 }
             	color2={ 255 255 255 }
                	
 				german = "Brünn"
@@ -17553,7 +17464,7 @@ e_wendish_empire = {
                 b_boskovice = {
                 }
             }
-            c_opava = {
+           	c_opava = {
                 color={ 163 110 44 }
                 color2={ 255 255 255 }
 				
@@ -17638,18 +17549,18 @@ e_russia = {
 			
 			capital = 535 # Vladimir Volynsky
 			
-			pagan_coa = {
-				template = 0
-				layer = {
-					texture = 3
-					texture_internal = 7
-					emblem = 0
-					color = 0
-					color = 0
-					color = 0
-				}
-				religion = "slavic_pagan"
-			}
+#			pagan_coa = {
+#				template = 0
+#				layer = {
+#					texture = 3
+#					texture_internal = 7
+#					emblem = 0
+#					color = 0
+#					color = 0
+#					color = 0
+#				}
+#				religion = "slavic_pagan"
+#			}
 			
 			c_vladimir_volynsky = {
 				color={ 204 155 121 }
@@ -17970,18 +17881,18 @@ e_russia = {
 			norwegian = Kønugård
 			danish = Kønugård
 					
-			pagan_coa = {
-				template = 0
-				layer = {
-					texture = 2
-					texture_internal = 1
-					emblem = 0
-					color = 0
-					color = 0
-					color = 0
-				}
-				religion = "norse_pagan"
-			}
+#			pagan_coa = {
+#				template = 0
+#				layer = {
+#					texture = 2
+#					texture_internal = 1
+#					emblem = 0
+#					color = 0
+#					color = 0
+#					color = 0
+#				}
+#				religion = "norse_pagan"
+#			}
 			
 			#pagan_coa = {
 			#	template = 0
@@ -18177,18 +18088,18 @@ e_russia = {
 			
 			capital = 550 # Minsk
 			
-			pagan_coa = {
-				template = 0
-				layer = {
-					texture = 3
-					texture_internal = 5
-					emblem = 0
-					color = 0
-					color = 0
-					color = 0
-				}
-				religion = "slavic_pagan"
-			}
+#			pagan_coa = {
+#				template = 0
+#				layer = {
+#					texture = 3
+#					texture_internal = 5
+#					emblem = 0
+#					color = 0
+#					color = 0
+#					color = 0
+#				}
+#				religion = "slavic_pagan"
+#			}
 			
 			c_minsk = {
 				color={ 60 105 2 }
@@ -19146,18 +19057,18 @@ e_russia = {
 			komi = "Ilmenia"
 			khanty = "Ilmenia"
 			
-			pagan_coa = {
-				template = 0
-				layer = {
-					texture = 2
-					texture_internal = 4
-					emblem = 0
-					color = 0
-					color = 0
-					color = 0
-				}
-				religion = "norse_pagan"
-			}
+#			pagan_coa = {
+#				template = 0
+#				layer = {
+#					texture = 2
+#					texture_internal = 4
+#					emblem = 0
+#					color = 0
+#					color = 0
+#					color = 0
+#				}
+#				religion = "norse_pagan"
+#			}
 			
 			c_bezhetsky_verh = { # Ladoga
 				color={ 144 161 101 }
@@ -19414,18 +19325,18 @@ e_russia = {
 		
 		culture = russian
 		
-		pagan_coa = {
-			template = 0
-			layer = {
-				texture = 3
-				texture_internal = 6
-				emblem = 0
-				color = 0
-				color = 0
-				color = 0
-			}
-			religion = "slavic_pagan"
-		}
+#		pagan_coa = {
+#			template = 0
+#			layer = {
+#				texture = 3
+#				texture_internal = 6
+#				emblem = 0
+#				color = 0
+#				color = 0
+#				color = 0
+#			}
+#			religion = "slavic_pagan"
+#		}
 		
 		allow = {
 			hidden_tooltip = {
@@ -19444,18 +19355,18 @@ e_russia = {
 			
 			capital = 582 # Vladimir
 			
-			pagan_coa = {
-				template = 0
-				layer = {
-					texture = 3
-					texture_internal = 6
-					emblem = 0
-					color = 0
-					color = 0
-					color = 0
-				}
-				religion = "slavic_pagan"
-			}
+#			pagan_coa = {
+#				template = 0
+#				layer = {
+#					texture = 3
+#					texture_internal = 6
+#					emblem = 0
+#					color = 0
+#					color = 0
+#					color = 0
+#				}
+#				religion = "slavic_pagan"
+#			}
 	
 			c_gorodez = {
 				color={ 193 207 149 }
@@ -19661,7 +19572,7 @@ e_russia = {
 			color={ 178 192 134 }
 			color2={ 255 255 255 }
 			
-			capital = 406 # Vologda # Changed due to the vanilla choice not being in the right duchy
+			capital = 572 # Yaroslavl
 			
 			c_kostroma = {
 				color={ 181 195 137 }
@@ -27484,7 +27395,7 @@ e_carpathia = {
 				}
 				b_fetesti = {
 				}
-			}
+			}			
 		}
 		
 		d_oltenia = {
@@ -27560,7 +27471,7 @@ e_carpathia = {
 			
 			volhynian = "Tivertsians"
 			
-			c_torki = {	#Suceava since HF
+			c_torki = {				#Suceava since HF
 				color={ 227 206 149 }
 				color2={ 255 255 255 }
 			
@@ -27623,7 +27534,7 @@ e_carpathia = {
 			
 				b_soroca = {
 				}
-				b_orhei = {
+				b_orhei = {			
 				}
 				b_butuceni = {
 				}
@@ -27784,48 +27695,48 @@ e_carpathia = {
 				carantanian = Patkostolie
 				slovieni = Patkostolie
 				
-				b_pecs = {
+				b_pecs = { 
 					slovieni = Patkostolie
 					bohemian = Petikostelí
 					german = Funfkirchen
 					croatian = Pecuh
 				}
-				b_kalocsa = {
+				b_kalocsa = { 
 					slovieni = Kaloca
 					bohemian = Kaloca
 					german = Kollotschau
 				}
-				b_mohacs = {
+				b_mohacs = { 
 					slovieni = Mohác
 					bohemian = Mohác
 					german = Mohatsch
 					croatian = Mohác
 				}
-				b_sasd = {
+				b_sasd = { 
 					slovieni = Šašd
 					bohemian = Šašd
 					german = Schaschd
 					croatian = Šardin
 				}
-				b_pecsvarad = {
+				b_pecsvarad = { 
 					slovieni = Pecvar
 					bohemian = Pecvar
 					german = Petschwar
 					croatian = Pecvar
 				}
-				b_siklos = {
+				b_siklos = { 
 					slovieni = Šikloš
 					bohemian = Šikloš
 					croatian = Šikloš
 					german = Sieglos
 				}
-				b_szentlorinc = {
+				b_szentlorinc = { 
 					slovieni = "Svatý Vavrinec"
 					bohemian = "Svatý Vavrinec"
 					croatian = Selurinac
 					german = "Sankt Laurenz"
 				}
-				b_darda = {
+				b_darda = { 
 					slovieni = Darda
 					bohemian = Darda
 					german = Lanzenau
@@ -27841,29 +27752,29 @@ e_carpathia = {
 				slovieni = Šomod
 				hungarian = Somogy
 				
-				b_szekezfehervar = {
+				b_szekezfehervar = { 
 					croatian = Šomod
 					german = Schomodei
 					bohemian = Šomod
 					slovieni = Šomod
 					hungarian = Somogy
 				}
-				b_csurgo = {
+				b_csurgo = { 
 					slovieni = Curgov
 					bohemian = Curgov
 				}
-				b_kaposvar = {
+				b_kaposvar = { 
 					slovieni = Kapošvár
 					bohemian = Kapošvár
 					german= Kopisch
 				}
-				b_szigetvar = {
+				b_szigetvar = { 
 					slovieni = Sihot
 					bohemian = Sihot
 					croatian = Siget
 					german = Inselburg
 				}
-				b_barcs = {
+				b_barcs = { 
 					slovieni = Barc
 					bohemian = Barc
 					croatian = Barca
@@ -27892,17 +27803,17 @@ e_carpathia = {
 				slovieni = Železna
 				hungarian = Vas
 				
-				b_szombathely = {
+				b_szombathely = { 
 					slovieni = Kamenec
 					german = Steinamanger
 				}
-				b_szentgotthard = {
+				b_szentgotthard = { 
 					slovieni = "Svatý Gothard"
 					bohemian = "Svatý Gothard"
 					carantanian = Monošter
 					german = "Sankt Gotthard"
 				}
-				b_vasvar = {
+				b_vasvar = { 
 					slovieni = "Železný hrad"
 					bohemian = "Železný hrad"
 					german = Eisenburg
@@ -27917,13 +27828,13 @@ e_carpathia = {
 				b_kormend = {
 					german = Kirment
 				}
-				b_koszeg = {
+				b_koszeg = { 
 					slovieni = Kysek
 					bohemian = Kysek
 					german = Güns
 					croatian = Kiseg
 				}
-				b_nemetujvar = {
+				b_nemetujvar = { 
 					german = Güssing
 					croatian = Novigrad
 				}
@@ -27987,7 +27898,7 @@ e_carpathia = {
 				slovieni = Šopron
 				bohemian = Šopron
 
-				b_sopron = {
+				b_sopron = { 
 					slovieni = Šopron
 					bohemian = Šopron
 					german = Ödenburg
@@ -28035,7 +27946,7 @@ e_carpathia = {
 				carantanian = Ostrogon
 				polish = Ostrzyhom
 				
-				b_esztergom = {
+				b_esztergom = { 
 					german = Gran
 					bohemian = Ostrihom
 					slovieni = Ostrihom
@@ -28045,13 +27956,13 @@ e_carpathia = {
 					carantanian = Ostrogon
 					polish = Ostrzyhom
 				}
-				b_komarom = {
+				b_komarom = { 
 					slovieni = Komárno
 					bohemian = Komárno
 					hungarian = Komárom
 					german = Komorn
 				}
-				b_kakath = {
+				b_kakath = { 
 					slovieni = Kokot
 					bohemian = Kokot
 				}
@@ -28060,11 +27971,11 @@ e_carpathia = {
 				}
 				b_nagyigmand = {
 				}
-				b_nemesocsa = {
+				b_nemesocsa = { 
 					slovieni = "Zemianska Olca"
 					bohemian = "Zemianska Olca"
 				}
-				b_ogylla = {
+				b_ogylla = { 
 					slovieni = "Stará Dala"
 					bohemian = "Stará Dala"
 					german = Altdala
@@ -28080,44 +27991,44 @@ e_carpathia = {
 				bohemian = Prešpurk
 				slovieni = Prešporok
 				
-				b_pressburg = {
+				b_pressburg = { 
 					german = Pressburg
 					hungarian = Pozsony
 					bohemian = Prešpurk
 					slovieni = Prešporok
 				}
-				b_nagyszombat = {
+				b_nagyszombat = { 
 					slovieni = Trnava
 					bohemian = Trnava
 					german = Tyrnau
 				}
-				b_bazin = {
+				b_bazin = { 
 					slovieni = Devín
 					bohemian = Devin
 					hungarian = Dévény
 					german = Theben
 				}
-				b_modor = {
+				b_modor = { 
 					slovieni = Modra
 					bohemian = Modra
 					german = Modern
 				}
-				b_szentgyorgy = {
+				b_szentgyorgy = { 
 					slovieni = "Svatý Jur"
 					bohemian = "Svatý Jur"
 					german = "Sankt Georgen"
 				}
-				b_dunaszerdahely = {
+				b_dunaszerdahely = { 
 					slovieni = "Dunajská Streda"
 					bohemian = "Dunajská Streda"
 					german = Niedermarkt
 				}
-				b_galanta = {
+				b_galanta = { 
 					slovieni = Galanta
 					bohemian = Galanta
 					german = Gallandau
 				}
-				b_somorja = {
+				b_somorja = { 
 					slovieni = Šamorín
 					bohemian = Šamorín
 					german = Sommerein
@@ -28146,44 +28057,44 @@ e_carpathia = {
 				hungarian = Nyitra
 				polish = Nitra
 				
-				b_nyitra = {
+				b_nyitra = { 
 					german = Neutra
 					bohemian = Nitra
 					slovieni = Nitra
 					hungarian = Nyitra
 					polish = Nitra
 				}
-				b_nagytapolcsany = {
+				b_nagytapolcsany = { 
 					slovieni = Topolcany
 					bohemian = Topolcany
 					german = Topoltschan
 				}
-				b_stbenedek = {
+				b_stbenedek = { 
 					slovieni = "Hronský Benadik"
 					bohemian = "Hronský Benadik"
 					german = "Sankt Benedikt"
 				}
-				b_nagysurany = {
+				b_nagysurany = { 
 					slovieni = "Velké Šurany"
 					bohemian = "Velké Šurany"
 					german = Schuran
 				}
-				b_galgoc = {
+				b_galgoc = { 
 					slovieni = Hlohovec
 					bohemian = Hlohovec
 					german = Freistadt
 				}
-				b_zabokreky = {
+				b_zabokreky = { 
 					slovieni = Žabokreky
 					bohemian = Žabokreky
 					hungarian = Zsámbokrét
 				}
-				b_postyen = {
+				b_postyen = { 
 					slovieni = Pieštany
 					bohemian = Pieštany
 					german = Pistyan
 				}
-				b_preuigan = {
+				b_preuigan = { 
 					slovieni = Prievidza
 					bohemian = Prievidza
 					german = Priwitz
@@ -28199,48 +28110,48 @@ e_carpathia = {
 				hungarian = Trencsen
 				polish = Trenczyn
 				
-				b_trencsen = {
+				b_trencsen = { 
 					german = Trentschin
 					bohemian = Trencín
 					slovieni = Trencín
 					hungarian = Trencsen
 					polish = Trenczyn
 				}
-				b_zilina = {
+				b_zilina = { 
 					slovieni = Žilina
 					bohemian = Žilina
 					german = Sillein
 					hungarian = Zsolna
 				}
-				b_turoc = {
+				b_turoc = { 
 					slovieni = Turiec
 					bohemian = Turiec
 					german = Turz
 				}
-				b_ban = {
+				b_ban = { 
 					slovieni = Vyšehrad
 					bohemian = Vyšehrad
 					german = Plintenburg
 					hungarian = Visegrád
 				}
-				b_illava = {
+				b_illava = { 
 					slovieni = Ilava
 					bohemian = Ilava
 					german = Illau
 				}
-				b_povazskabystrica = {
+				b_povazskabystrica = { 
 					slovieni = "Považská Bystrica"
 					bohemian = "Považská Bystrica"
 					german = Waagbistritz
 					hungarian = Vágbeszterce
 				}
-				b_congsberg = {
+				b_congsberg = { 
 					slovieni = Beckov
 					bohemian = Beckov
 					german = Beckow
 					hungarian = Becko
 				}
-				b_puho = {
+				b_puho = { 
 					slovieni = Puchov
 					bohemian = Puchov
 					german = Puchau
@@ -28256,44 +28167,44 @@ e_carpathia = {
 				hungarian = Gömör
 				polish = Gemer
 				
-				b_gomor = {
+				b_gomor = { 
 					german = Gemer
 					bohemian = Gemer
 					slovieni = Gemer
 					hungarian = Gömör
 					polish = Gemer
 				}
-				b_losonc = {
+				b_losonc = { 
 					slovieni = Lucenec
 					bohemian = Lucenec
 					german = Lizenz
 				}
-				b_dobsina = {
+				b_dobsina = { 
 					slovieni = Dobšiná
 					bohemian = Dobšiná
 					german = Dobschau
 				}
-				b_rozsnyo = {
+				b_rozsnyo = { 
 					slovieni = Rožnava
 					bohemian = Rožnava
 					german = Rosenau
 				}
-				b_balassagyarmat = {
+				b_balassagyarmat = { 
 					slovieni = "Balážske Darmoty"
 					bohemian = "Balážske Darmoty"
 					german = Jahrmarkt
 				}
-				b_jolsva = {
+				b_jolsva = { 
 					slovieni = Jelšava
 					bohemian = Jelšava
 					german = Eltsch
 				}
-				b_nagyroce = {
+				b_nagyroce = { 
 					slovieni = "Velká Revúca"
 					bohemian = "Velká Revúca"
 					german = Grossrauschenbach
 				}
-				b_nyustya = {
+				b_nyustya = { 
 					slovieni = Zvolen
 					bohemian = Zvolen
 					hungarian = Zólyom
@@ -28310,53 +28221,53 @@ e_carpathia = {
 				hungarian = Arva
 				polish = Orawa
 				
-				b_arvavara = {
+				b_arvavara = { 
 					german = Arwa
 					bohemian = Orava
 					slovieni = Orava
 					hungarian = Arva
 					polish = Orawa
 				}
-				b_nameszto = {
+				b_nameszto = { 
 					slovieni = Námestovo
 					bohemian = Námestovo
 					polish = Namiestowo
 					hungarian = Námeszto
 				}
-				b_liptovskymikulas = {
+				b_liptovskymikulas = { 
 					slovieni = "Liptovský Mikuláš"
 					bohemian = "Liptovský Mikuláš"
 					polish = "Liptowski Mikulasz"
 					german = "Liptau Nikolaus"
 					hungarian = Liptoszentmiklos
 				}
-				b_zolyom = {
+				b_zolyom = { 
 					slovieni = "Dolný Kubín"
 					bohemian = "Dolný Kubín"
 					hungarian = Alsókubin
 					german = Unterkubin
 				}
-				b_trsztena = {
+				b_trsztena = { 
 					slovieni = Trstená
 					bohemian = Trstená
 					polish = Trzciana
 					hungarian = Trsztena
 					german = Bingenstadt
 				}
-				b_turdossin = {
+				b_turdossin = { 
 					slovieni = Tvrdošín
 					bohemian = Tvrdošín
 					hungarian = Turdossin
 					german = Turdoschin
 					polish = Twardoszyn
 				}
-				b_nemetlipcse = {
+				b_nemetlipcse = { 
 					slovieni = "Nemecká Lupca"
 					bohemian = "Nemecká Lupca"
 					german = Deutschliptsch
 					hungarian = Németlipcse
 				}
-				b_rozsahegy = {
+				b_rozsahegy = { 
 					slovieni = Ružomberok
 					bohemian = Ružomberok
 					german = Rosenberg
@@ -28388,51 +28299,51 @@ e_carpathia = {
 				hungarian = Szepes
 				polish = Spisz
 				
-				b_saris = {
+				b_saris = { 
 					german = Zips
 					bohemian = Spiš
 					slovieni = Spiš
 					hungarian = Szepes
 					polish = Spisz
 				}
-				b_bartfa = {
+				b_bartfa = { 
 					slovieni = Bardejov
 					bohemian = Bardejov
 					polish = Bardejów
 					german = Bartfeld
 					hungarian = Bártfa
 				}
-				b_kisszeben = {
+				b_kisszeben = { 
 					slovieni = Sabinov
 					bohemian = Sabinov
 					german = Zeben
 					hungarian = Kisszeben
 				}
-				b_eperjes = {
+				b_eperjes = { 
 					slovieni = Prešov
 					bohemian = Prešov
 					german = Eperies
 					hungarian = Eperjes
 					polish = Preszów
 				}
-				b_scyuidnyk = {
+				b_scyuidnyk = { 
 					slovieni = Svidník
 					bohemian = Svidník
 					german = Oberswidnik
 					hungarian = Felsovízkoz
 				}
-				b_giralth = {
+				b_giralth = { 
 					slovieni = Giraltovce
 					bohemian = Giraltovce
 					hungarian = Girált
 				}
-				b_hethars = {
+				b_hethars = { 
 					slovieni = Lipany
 					bohemian = Lipany
 					hungarian = Héthárs
 					german = Siebenlinden
 				}
-				b_lemesany = {
+				b_lemesany = { 
 					slovieni = Lemešany
 					bohemian = Lemešany
 					hungarian = Lemes
@@ -28447,33 +28358,33 @@ e_carpathia = {
 				slovieni = Berehovo
 				hungarian = Bereg
 				
-				b_beregszasz = {
+				b_beregszasz = { 
 					german = Berg
 					bohemian = Berehovo
 					slovieni = Berehovo
 					hungarian = Bereg
 				}
-				b_perecseny = {
+				b_perecseny = { 
 					slovieni = Perecín
 				}
-				b_munkacs = {
+				b_munkacs = { 
 					slovieni = Mukacevo
 					german = Munkatsch
 				}
-				b_ungvar = {
+				b_ungvar = { 
 					slovieni = Užhorod
 					german = Ungwar
 				}
-				b_ilosva = {
+				b_ilosva = { 
 					slovieni = Iršava
 				}
-				b_szolyva = {
+				b_szolyva = { 
 					slovieni = Svalava
 				}
-				b_szobranc = {
+				b_szobranc = { 
 					slovieni = Sobrance
 				}
-				b_kapos = {
+				b_kapos = { 
 					slovieni = Kapoš
 				}
 			}
@@ -28486,17 +28397,17 @@ e_carpathia = {
 				slovieni = Abov
 				hungarian = Abauj
 				
-				b_abauj = {
+				b_abauj = { 
 					german = Neuburg
 					bohemian = Abov
 					slovieni = Abov
 					hungarian = Abauj
 				}
-				b_satoraljaujhely = {
+				b_satoraljaujhely = { 
 					slovieni = "Nové Mesto pod Šiatrom"
 					bohemian = "Nové Mesto pod Šiatrom"
 				}
-				b_kassa = {
+				b_kassa = { 
 					slovieni = Košice
 					bohemian = Košice
 					polish = Koszyce
@@ -28504,29 +28415,29 @@ e_carpathia = {
 					german = Kaschau
 					croatian = Kašava
 				}
-				b_szikszo = {
+				b_szikszo = { 
 					slovieni = Siksov
 					bohemian = Siksov
 				}
-				b_turna = {
+				b_turna = { 
 					slovieni = Turna
 					bohemian = Turna
 					german = Tornau
 					hungarian = Torna
 				}
-				b_szepsi = {
+				b_szepsi = { 
 					slovieni = Moldava
 					bohemian = Moldava
 					hungarian = Szepsi
 					german = Sepschi
 				}
-				b_sarospatak = {
+				b_sarospatak = { 
 					slovieni = Trebišov
 					bohemian = Trebišov
 					german = Trebischau
 					hungarian = Toketerebes
 				}
-				b_tokaj = {
+				b_tokaj = { 
 					slovieni = Tokaj
 					bohemian = Tokaj
 				}
@@ -28540,25 +28451,25 @@ e_carpathia = {
 				slovieni = Marmaroš
 				hungarian = Máramaros
 				
-				b_maramarossziget = {
+				b_maramarossziget = { 
 					slovieni = "Marmarošská Sihot"
 					german = Marmaroschsiget
 				}
-				b_nagybanya = {
+				b_nagybanya = { 
 					slovieni = "Velká Bana"
 					german = Neustadt
 				}
-				b_nagykaroly = {
+				b_nagykaroly = { 
 					slovieni = Carei
 				}
-				b_huszt = {
+				b_huszt = { 
 					slovieni = Chust
 				}
 				b_aknasugatag = {
 				}
 				b_tecso = {
 				}
-				b_raho = {
+				b_raho = { 
 					slovieni = Rachiv
 				}
 				b_felsoviso = {
@@ -28586,20 +28497,20 @@ e_carpathia = {
 				bohemian = Heveš
 				hungarian = Heves
 
-				b_heves = {
+				b_heves = { 
 					german = Hewesch
 					slovieni = Heveš
 					bohemian = Heveš
 					hungarian = Heves
 				}
-				b_eger = {
+				b_eger = { 
 					slovieni = Jáger
 					german = Erlau
 				}
 				b_gyongyos = {
 					german = Gengess
 				}
-				b_miskolc = {
+				b_miskolc = { 
 					slovieni = Miškovec
 					german = Mischkolz
 				}
@@ -28733,7 +28644,6 @@ e_carpathia = {
 				color={ 245 62 62 }
 				color2={ 255 255 255 }
 
-						   
 				german = Unterweissenburg
 				
 				b_feher = {
@@ -31142,7 +31052,6 @@ e_france = {
 					frankish = "Laufond"
 				}
 				b_habsburg = {}
-
 			}
 			c_vaud = {
 				color={ 169 30 68 } # Needed something
@@ -33003,6 +32912,7 @@ e_spain = {
 			c_niebla = {
 				color = { 248 216 41 }
 				color2={ 255 255 255 }
+				
 				b_niebla = {}
 				b_nerva = {}
 				b_almonte = {}
@@ -36943,7 +36853,7 @@ e_maghreb = {
 			bedouin_arabic = "Barqa"
 			maghreb_arabic = "Barqa"
 			levantine_arabic = "Barqa"
-			andalusian_arabic = "Barqa"
+			andalusian_arabic = "Barqa"			
 		
 			c_cyrenaica = {
 				color={ 34 152 65 }
@@ -37273,7 +37183,7 @@ e_abyssinia = {
 				b_bereeda = {
 					somali = Bareeda
 				}
-			}
+	 		}
 			c_berbera = {
 				color={ 127 151 52 }
 				color2={ 255 255 255 }
@@ -38388,18 +38298,18 @@ e_britannia = {
 			saxon = "Deira"
 			welsh = Ebrauc
 			
-			pagan_coa = {
-				template = 0
-				layer = {
-					texture = 2
-					texture_internal = 12
-					emblem = 0
-					color = 0
-					color = 0
-					color = 0
-				}
-				religion = "norse_pagan"
-			}
+#			pagan_coa = {
+#				template = 0
+#				layer = {
+#					texture = 2
+#					texture_internal = 12
+#					emblem = 0
+#					color = 0
+#					color = 0
+#					color = 0
+#				}
+#				religion = "norse_pagan"
+#			}
 			
 			c_york = {
 				color={ 255 80 5 }
@@ -39732,18 +39642,18 @@ e_britannia = {
 			welsh = "Ynysoedd Heledd"
 			irish = "Dál Riata"
 			
-			pagan_coa = {
-				template = 0
-				layer = {
-					texture = 2
-					texture_internal = 8
-					emblem = 0
-					color = 0
-					color = 0
-					color = 0
-				}
-				religion = "norse_pagan"
-			}
+#			pagan_coa = {
+#				template = 0
+#				layer = {
+#					texture = 2
+#					texture_internal = 8
+#					emblem = 0
+#					color = 0
+#					color = 0
+#					color = 0
+#				}
+#				religion = "norse_pagan"
+#			}
 			
 			c_innse_gall = {
 				color={ 20 60 243 }
@@ -40763,18 +40673,18 @@ e_britannia = {
 			norse = Dyflinn
 			irish = Mide
 			
-			pagan_coa = {
-				template = 0
-				layer = {
-					texture = 2
-					texture_internal = 3
-					emblem = 0
-					color = 0
-					color = 0
-					color = 0
-				}
-				religion = "norse_pagan"
-			}
+#			pagan_coa = {
+#				template = 0
+#				layer = {
+#					texture = 2
+#					texture_internal = 3
+#					emblem = 0
+#					color = 0
+#					color = 0
+#					color = 0
+#				}
+#				religion = "norse_pagan"
+#			}
 		
 			c_kildare = {
 				color={ 102 248 65 }

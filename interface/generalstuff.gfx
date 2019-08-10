@@ -9,7 +9,7 @@ spriteTypes = {
 	}
 	maskedShieldType = {
 		name = "GFX_shield_big"
-		textureFile1 = "gfx\\interface\\shield_big_overlay.tga"
+		textureFile1 = "gfx\\interface\\shield_big_overlay_solo.tga"
 		textureFile2 = "gfx\\interface\\shield_big_mask.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		clicksound = generic_click_04
@@ -48,7 +48,7 @@ spriteTypes = {
 		textureFile2 = "gfx\\interface\\shield_big_mask_pagan.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		clicksound = generic_click_04
-	}
+  }
 	spriteType = {
 		name = "GFX_CoA_big"
 		texturefile = "gfx\\interface\\CoA_big.tga"
@@ -60,8 +60,8 @@ spriteTypes = {
 	
 	maskedShieldType = {
 		name = "GFX_shield_medium"
-		textureFile1 = "gfx\\interface\\shield_medium_overlay.tga"
-		textureFile2 = "gfx\\interface\\shield_medium_mask.tga"
+		textureFile1 = "gfx\\interface\\shield_medium_overlay_solo.tga"
+		textureFile2 = "gfx\\interface\\shield_medium_mask_solo.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		clicksound = generic_click_04
 	}
@@ -95,7 +95,7 @@ spriteTypes = {
 	}
 	maskedShieldType = {
 		name = "GFX_shield_medium_muslim"
-		textureFile1 = "gfx\\interface\\shield_medium_overlay_muslim.tga"
+		textureFile1 = "gfx\\interface\\solo_shield_medium_overlay_muslim.tga"
 		textureFile2 = "gfx\\interface\\shield_medium_mask_pagan.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		clicksound = generic_click_04
@@ -110,7 +110,7 @@ spriteTypes = {
 	}
 	maskedShieldType = {
 		name = "GFX_shield_medium2"
-		textureFile1 = "gfx\\interface\\shield_medium2_overlay.tga"
+		textureFile1 = "gfx\\interface\\shield_medium2_overlay_solo.tga"
 		textureFile2 = "gfx\\interface\\shield_medium2_mask.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		clicksound = generic_click_04
@@ -145,7 +145,7 @@ spriteTypes = {
 	}
 	maskedShieldType = {
 		name = "GFX_shield_medium2_muslim"
-		textureFile1 = "gfx\\interface\\shield_medium2_overlay_muslim.tga"
+		textureFile1 = "gfx\\interface\\solo_shield_medium2_overlay_muslim.tga"
 		textureFile2 = "gfx\\interface\\shield_medium2_mask_pagan.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		clicksound = generic_click_04
@@ -160,7 +160,7 @@ spriteTypes = {
 	}
 	maskedShieldType = {
 		name = "GFX_shield_medium3"
-		textureFile1 = "gfx\\interface\\shield_medium3_overlay.tga"
+		textureFile1 = "gfx\\interface\\shield_medium3_overlay_solo.tga"
 		textureFile2 = "gfx\\interface\\shield_medium2_mask.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		clicksound = generic_click_04
@@ -221,7 +221,7 @@ spriteTypes = {
 	
 	maskedShieldType = {
 		name = "GFX_shield_small"
-		textureFile1 = "gfx\\interface\\shield_small_overlay.tga"
+		textureFile1 = "gfx\\interface\\shield_small_overlay_solo.tga"
 		textureFile2 = "gfx\\interface\\shield_small_mask.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		clicksound = generic_click_04
@@ -254,9 +254,9 @@ spriteTypes = {
 		effectFile = "gfx/FX/maskedflag.lua"
 		clicksound = generic_click_04
 	}
-	maskedShieldType = {
+	maskedShieldType = {		 
 		name = "GFX_shield_small_muslim"
-		textureFile1 = "gfx\\interface\\shield_small_overlay_muslim.tga"
+		textureFile1 = "gfx\\interface\\solo_shield_small_overlay_muslim.tga"
 		textureFile2 = "gfx\\interface\\shield_small_mask_pagan.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		clicksound = generic_click_04
@@ -273,7 +273,7 @@ spriteTypes = {
 	### not used?
 	maskedShieldType = {
 		name = "GFX_shield_32"
-		textureFile1 = "gfx\\interface\\shield_32_overlay.tga"
+		textureFile1 = "gfx\\interface\\shield_32_overlay_solo.tga"
 		textureFile2 = "gfx\\interface\\shield_32_mask.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		clicksound = generic_click_04
@@ -282,22 +282,22 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_shield_crown_strip_big"
-		texturefile = "gfx\\interface\\shield_crown_strip_big.tga"
+		texturefile = "gfx\\interface\\solo_crowns_64.tga"
 		noOfFrames = 6
 	}
 	spriteType = {
 		name = "GFX_shield_crown_strip_medium"
-		texturefile = "gfx\\interface\\shield_crown_strip_medium.tga"
+		texturefile = "gfx\\interface\\solo_crowns_40.tga"
 		noOfFrames = 6
 	}
 	spriteType = {
 		name = "GFX_shield_crown_strip_medium2"
-		texturefile = "gfx\\interface\\shield_crown_strip_medium2.tga"
+		texturefile = "gfx\\interface\\solo_crowns_28.tga"
 		noOfFrames = 6
 	}
 	spriteType = {
 		name = "GFX_shield_crown_strip_small"
-		texturefile = "gfx\\interface\\shield_crown_strip_small.tga"
+		texturefile = "gfx\\interface\\solo_crowns_20.tga"
 		noOfFrames = 6
 	}
 	spriteType = {
@@ -377,7 +377,7 @@ spriteTypes = {
 		name = "GFX_back_button_rep_nomad"
 		texturefile = "gfx\\interface\\back_button_rep_nomad.dds"
 	}
-	
+		
 	spriteType = {
 		name = "GFX_maximize_button"
 		texturefile = "gfx\\interface\\maximize_button.tga"
@@ -611,7 +611,7 @@ spriteTypes = {
 		noOfFrames = 6
 		allwaystransparent = yes
 	}
-	
+# NEW 2.8
 	# CONFUCIAN GOVERNMENT
 	spriteType = {
 		name = "GFX_charframe_150_confucian"
@@ -643,7 +643,7 @@ spriteTypes = {
 		noOfFrames = 6
 		allwaystransparent = yes
 	}
-
+	
 	# FEUDAL THEOCRACY
 	spriteType = {
 		name = "GFX_charframe_150_theocraticfeudal"
@@ -707,6 +707,9 @@ spriteTypes = {
 		noOfFrames = 6
 		allwaystransparent = yes
 	}
+	#####
+	
+### NEW 3.0
 
 	# HOLY ORDER
 	spriteType = {
@@ -739,8 +742,10 @@ spriteTypes = {
 		noOfFrames = 6
 		allwaystransparent = yes
 	}
+
+###	
 	
-	#####
+	
 	spriteType = {
 		name = "GFX_char_150"
 		texturefile = "gfx\\interface\\char_150.tga"
@@ -785,7 +790,7 @@ spriteTypes = {
 		transparencecheck = yes
 		norefcount = yes
 	}
-	
+
 	spriteType = {
 		name = "GFX_overlay_char_dead"
 		texturefile = "gfx\\interface\\overlay_char_dead.tga"
@@ -799,8 +804,8 @@ spriteTypes = {
 		transparencecheck = yes
 		norefcount = yes
 		noOfFrames = 3
-	}
-
+	}	
+	
 	spriteType = {
 		name = "GFX_overlay_char_powerful_small"
 		texturefile = "gfx\\interface\\overlay_char_powerful2.tga"
@@ -888,6 +893,8 @@ spriteTypes = {
 		noOfFrames = 8
 		norefcount = yes
 	}
+
+# New	
 	spriteType = {
 		name = "GFX_overlay_char_favor_indicator"
 		texturefile = "gfx\\interface\\favor_indicator.dds"
@@ -899,7 +906,7 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\favor_indicator_small.dds"
 		transparencecheck = yes
 		norefcount = yes
-	}
+	}	
 	
 	### sortbuttons
 	spriteType = {
@@ -1017,10 +1024,14 @@ spriteTypes = {
 		name = "GFX_standard_button_220"
 		texturefile = "gfx\\interface\\standard_button_220.dds"
 	}
+	spriteType = {
+		name = "GFX_standard_button_220_click_blocker"
+		texturefile = "gfx\\interface\\standard_button_220_click_blocker.dds"
+	}	
 	textSpriteType = {
 		name = "GFX_standard_button_220_disabled"
 		texturefile = "gfx\\interface\\standard_button_220_disabled.dds"
-	}
+	}	
 	textSpriteType = {
 		name = "GFX_standard_button_164"
 		texturefile = "gfx\\interface\\standard_button_164.tga"
@@ -1077,7 +1088,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_secret_religion_icon_bg"
 		texturefile = "gfx\\interface\\secret_religion_bg.tga"
-	}
+	}	
 	spriteType = {
 		name = "GFX_commandmodifier_icon"
 		texturefile = "gfx\\interface\\commandmodifier_icon.tga"
@@ -1223,7 +1234,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_pdx_dev_logo"
-		texturefile = "gfx\\interface\\pdx_dev_logo.dds"
+		texturefile = "gfx\\interface\\solo_pdx_dev_logo.tga"
 	}
 	
 	spriteType = {
@@ -1245,6 +1256,7 @@ spriteTypes = {
 		name = "GFX_icon_muslim_government"
 		texturefile = "gfx\\interface\\government_icon_iqta.dds"
 	}
+# NEW 2.8	
 	spriteType = {
 		name = "GFX_icon_theocratic_feudal_government"
 		texturefile = "gfx\\interface\\government_icon_theocratic_feudal.dds"
@@ -1256,7 +1268,8 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_icon_confucian_bureaucracy"
 		texturefile = "gfx\\interface\\government_icon_confucian_bureaucracy.dds"
-	}
+	}	
+###	
 	spriteType = {
 		name = "GFX_icon_tribal_government"
 		texturefile = "gfx\\interface\\government_icon_tribal.dds"
@@ -1273,7 +1286,8 @@ spriteTypes = {
 		name = "GFX_icon_republic_government"
 		texturefile = "gfx\\interface\\government_icon_republic.dds"
 	}
-	
+### NEW 3.0
+
 	spriteType = {
 		name = "GFX_icon_order_government"
 		texturefile = "gfx\\interface\\government_icon_order.dds"
@@ -1282,10 +1296,17 @@ spriteTypes = {
 		name = "GFX_icon_nogovernment"
 		texturefile = "gfx\\interface\\government_icon_nogovernment.dds"
 	}
+
+###	
+	
+# NEW 2.8	
 	spriteType = {
 		name = "GFX_checkmark"
 		texturefile = "gfx\\interface\\checkmark.dds"
-	}
+	}	
+
+
+### NEW 3.0
 
 	# Roman Imperial Government
 	spriteType = {
